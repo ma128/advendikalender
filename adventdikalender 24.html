@@ -1,0 +1,38 @@
+<html>
+<head>
+  <style>
+    .box {
+      width: 120px;
+      height: 120px;
+      background-color: rgb(102, 5, 4);
+      border-radius: 5px;
+      border: 4px solid black;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      color: white;
+      line-height: 24px;
+      font-size: 18px;
+    }
+    .box:hover {
+      cursor: pointer;
+    }
+    .hidden {
+      display: none;
+    }
+    .text {
+      animation: fade-in 4s;
+    }
+    @keyframes fade-in {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <!-- Create 24 boxes with numbers from 1 to 24 -->
+    <script src="index.js" charset="UTF-8"></script>
+  </div>
+</body>
+</html>
